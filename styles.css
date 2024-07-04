@@ -10,7 +10,7 @@ div{
 }
 #title-container{
   max-width: 70%;
-  background-color: rgb(213, 230, 245);
+  background-color: rgb(213, 230, 245); 
   position: relative;
   padding-bottom: 10rem;
   border-bottom-right-radius: 2rem;
@@ -120,4 +120,29 @@ width: 20%;
 }
 #hero-text{
   max-width: 70%;
+}
+#points-container{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(213, 230, 245); 
+  margin: 1rem;
+  border-radius: 1rem;
+
+}
+#points-flex{
+  position: relative;
+}
+#points-container div{
+  max-width: 90%;
+}
+#points-content h3{
+  font-size: 1rem;
+  font-weight: 50;
+  padding: 10px;
+}
+#points-content p{
+  font-size: 0.5rem;
+  font-weight: 50;
 }
