@@ -5,9 +5,6 @@
   margin: 0;
   padding: 0;
 }
-div{
-  border: 2px solid black;
-}
 #title-container{
   max-width: 70%;
   background-color: rgb(213, 230, 245); 
@@ -133,9 +130,12 @@ width: 20%;
 }
 #points-flex{
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #points-container div{
   max-width: 90%;
+  padding: 1rem;
 }
 #points-content h3{
   font-size: 1rem;
@@ -145,4 +145,79 @@ width: 20%;
 #points-content p{
   font-size: 0.5rem;
   font-weight: 50;
+}
+#limitations-grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  padding: 2rem;
+  gap: 1.5rem;
+  position: relative;
+}
+#limitations-grid-container div{
+  padding: 0.5rem;
+}
+#limitations-container{
+grid-column: 1/7;
+}
+#gender{
+
+grid-column: 7/10;
+box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+}
+#line{
+grid-column: 1/5;
+grid-row: 2/3;
+transform: rotateY(180deg);
+display: flex;
+position: relative;
+justify-content: start;
+align-items: center;
+}
+#Age{
+grid-column: 5/8;
+grid-row: 2/3;
+box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+}
+#muscles{
+grid-column: 8/11;
+grid-row: 2/3;
+box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+}
+#pregnancy{
+grid-column: 3/6;
+grid-row: 3/3;
+box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+}
+#race{
+grid-column: 6/9;
+grid-row: 3/3;
+box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+
+}
+.limitations-content{
+    font-size: 0.75rem;
+}
+.limitations-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.limitations-heading{
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+.limitations-title{
+  font-size: 2rem;
+}
+.limitations-title-content{
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 80%;
 }
