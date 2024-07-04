@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="calculate-container">
+      <div id="title-container">
+        <div id="logo-container">
+          <img src="logo.svg" alt="BMI Logo" />
+        </div>
+        <div id="title">
+          <h1>
+            Body Mass <br />
+            Index Calculator
+          </h1>
+          <div id="title-content">
+            Better understand your weight in relation to your height using our
+            body mass index (BM) calculator. While BMI is not the sole
+            determinant of a healthy weight, it offers a valuable starting point
+            to evaluate your overall health and well-being.
+          </div>
+          <div id="calculator-container">
+            <h3 id="calculator-title">Enter your details below</h3>
+            <div id="radio-container">
+              <span>
+                <input type="radio" id="metric" name="unit" checked />
+                <label for="metric">Metric</label>
+              </span>
+              <span>
+                <input type="radio" id="imperial" name="unit" />
+                <label for="imperial">Imperial</label>
+              </span>
+            </div>
+            <div id="label-container">
+              <span>
+                <label for="height">Height</label>
+              </span>
+              <span>
+                <label for="weight">Weight</label>
+              </span>
+            </div>
+            <div id="input-container">
+              <input type="number" id="height" placeholder="0" />
+              <input type="number" id="weight" placeholder="0" />
+            </div>
+            <div id="button-container">
+              <div id="calculate-button">
+                <h3>Welcome!</h3>
+                <br />Enter your height and weight and you'll see your BMI
+                result here
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hero-container">
+        <div id="image-container">
+          <img
+            src="image-man-eating.webp"
+            alt="Image of person eating his meal"
+          />
+        </div>
+        <div id="hero-content">
+          <h2>
+            What your BMI result<br />
+            means
+          </h2>
+          <div id="hero-text">
+            A BMI range from 18.5 to 24.9 is considered a 'healthy weight'.
+            Maintaining a healthy weight may lower your chances of experience
+            health issues later on, such as obesity and type 2 diabetes. Aim for
+            a nutritious diet with reduced fat sugar content, incorporating
+            ample fruits and vegetables. Additionaly, strive for regular
+            physical activity, idealy about 30 minutes daily for five days a
+            week.
+          </div>
+        </div>
+        <!-- <div id="points-container">
+          <div id="points-grid"></div>
+        </div> -->
+      </div>
+      <div id="limitations-container"></div>
+    </div>
+  </body>
+</html>

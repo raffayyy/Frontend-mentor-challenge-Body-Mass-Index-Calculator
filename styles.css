@@ -1,0 +1,123 @@
+*{
+  font-family: arial;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+div{
+  border: 2px solid black;
+}
+#title-container{
+  max-width: 70%;
+  background-color: rgb(213, 230, 245);
+  position: relative;
+  padding-bottom: 10rem;
+  border-bottom-right-radius: 2rem;
+}
+
+#title{
+  padding-top: 2rem;
+  max-width: 60%;
+  margin-left: 10%;
+}
+#title-content{
+  font-size: 1rem;
+  font-weight: 50;
+  max-width: 70%;
+}
+#logo-container{
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+#logo-container img{
+width: 20%;
+}
+#calculator-container{
+  position: absolute;
+  top: -30%;
+  left: 120%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+#radio-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+#radio-container span{
+  margin-left: -15%;
+}
+#label-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.80rem;
+  padding-top: 0.5rem;
+}
+#label-container span{
+  margin-left: -25%;
+}
+#input-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+#input-container input{
+  height: 30%;
+
+  padding: 0.25rem;
+  font-size: 0.75rem;
+}
+#button-container{
+  padding: 1rem;
+}
+#button-container div{
+  font-size: 0.75rem;
+  padding: 2rem;
+  background-color: rgb(49, 49, 243);
+  color: white;
+  border-top-right-radius: 50% 70px;
+  border-bottom-right-radius: 50% 70px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+#hero-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem
+}
+#image-container{
+  max-width: 50%;
+  /* padding-left: 10%;
+  padding-top: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#image-container img{
+  max-width: 80%;
+}
+#hero-content{
+  max-width: 50%;
+  padding: 1rem;
+}
+#hero-content{
+  max-width: 40%;
+  font-weight: 50;
+}
+#hero-text{
+  max-width: 70%;
+}
